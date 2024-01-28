@@ -1,0 +1,26 @@
+
+Request Headers
+User-Agent: PostmanRuntime/7.36.1 - User-Agent: set by client to indicate information pertaining to the client
+Accept: */* - Accept: this is what the client accepts (in this case all)
+Postman-Token: 9f575e32-a0b4-4f0f-9e64-d54b2f77c1e5 - Postman-Token: this is the token postman will use
+Host: www.googleapis.com - Host: this is where the host is located (in this case google api's)
+Accept-Encoding: gzip, deflate, br - Accept-Encoding: indicates content encoding that client can understand
+Connection: keep-alive - Connection: status of request afer or current transaction ( in this case it is persistent)
+
+Response Headers
+Content-Type: application/json; charset=UTF-8 - server format of the request data
+Vary: Origin - describes parts of request
+Vary: X-Origin - describes parts of request
+Vary: Referer - describes part of request
+Content-Encoding: gzip - lists any encodings that have been applied to representation and in what order
+Date: Sun, 28 Jan 2024 20:18:36 GMT - Date: this is the date the requested was performed
+Server: ESF - server: this is the server the request is running on
+Cache-Control: private - Cache-control: holds instructions that control cachine in browsers and shared caches
+X-XSS-Protection: 0 - this stops pages from loading when they detect reflected cross site scripting attacks
+X-Frame-Options: SAMEORIGIN - indicates whether a browser should allow to render ra page in a frame
+X-Content-Type-Options: nosniff - used by server to indicate MIME types advertised in content-type headers should be followed and not changed
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000 - server indicates anotther network location can be treated as authoritatiive for that origin when making future requests
+Transfer-Encoding: chunked - hop by hop header applied to a message between 2 nodes
+
+Response Body
+Body is more than 10 KB and can only be viewed in editor. - data sent by client to API
